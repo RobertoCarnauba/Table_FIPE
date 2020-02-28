@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Option</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="text">
+       <h3>Table fipe <br><span>Quanto custa aquela nave?</span></h3>
+       <p>É um facto estabelecido de que um leitor é distraído pelo conteúdo
+          legível de uma página quando analisa a sua mancha gráfica. Logo, o 
+          uso de Lorem Ipsum leva a uma distribuição mais</p>
+    </div>
+    <button>Consulta</button>
+    <!-- <select id="cars"></select> -->
+    <hr>
+    <select id="selectNumber">
+      <option>Carros</option>
+    </select>
+    <select id="selectModelo">
+      <option>Modelo</option>
+    </select>
+    <select id="selectAno">
+      <option>Ano</option>
+    </select>
+    <div id="tabela_valor">
+      <table>
+        <tbody>
+          <tr>
+            <td>Referencia</td>
+            <td id="referencia"></td>
+          </tr>
+          <tr>
+            <td>Fipe_codigo</td>
+            <td id="fipe_codigo"></td>
+          </tr>
+          <tr>
+            <td>Modelo</td>
+            <td id="modelo"></td>
+          </tr>
+          <tr>
+            <td>combustivel</td>
+            <td id="combustivel"></td>
+          </tr>
+          <tr>
+            <td>Ano Modelo</td>
+            <td id="anoModelo"></td>
+          </tr>
+          <tr>
+            <td>Valor</td>
+            <td id="valor"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+h3{
+    font-family: 'Oxanium',serif ;
+    font-size: 26px;
+}
+h3 span{
+    font-family: 'Acme', serif;
+    font-size: 21px;
+}
+p{
+    font-family: 'Spartan', serif;
+    font-size: 21px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 517px;
+    justify-content: space-between;
+    max-width: 507px;
+    /* border: 1px solid red; */
+    padding: 10px;
+    margin-left: 25%;
+}
+.text{
+    min-width: 100%;
+}
+button{
+    border-radius: 4px;
+    padding: 6px;
+    width: 165px;
+    height: 36px;
+    font-family: fantasy;
+    font-weight: 100;
+}
+ /* select{
+    width: 345px;
+    margin-bottom: 10px;
+} */
+select {
+    margin-bottom: 5px;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px #E8E8E8 inset;
+    padding: 6px;
+    width: 110px;
+    width: 426px;
+}
+#selectNumber, #selectModelo, #selectAno{
+    font-family: 'IBM Plex Mono',fantasy ;
+}
+
+#cars,#cars-api{
+    width: 120px;
+}
+
+#tabela_valor{
+    min-width: 350px;
+    /* border: 1px solid; */
+}
+
+table{
+    width: 100%;
+}
