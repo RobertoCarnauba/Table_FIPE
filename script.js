@@ -99,6 +99,9 @@ function versoes(id_m) {
                 let ano_modelo = document.getElementById("selectModelo").value
                 let ano_versao = document.getElementById("selectAno").value
                 let monmodver = ano_montadora + '/' + ano_modelo + '/' + ano_versao
+                if(ano_versao.value !== "Ano"){
+                    document.getElementsByTagName("table")[0].style.display = "block";
+                }
                 axios.get('http://fipeapi.appspot.com/api/1/carros/veiculo/'+monmodver+'.json')
                     .then(function (response) {
                         let versoes = response.data
@@ -126,11 +129,13 @@ function versoes(id_m) {
                         // var tr = document.createElement("tr")
                         // var td = document.createElement("td")
                         // let text = document.createTextNode(key);
+                       
 
                     })
                     .catch(function (err) {
                         console.log(err)
                     })
+                    
             })
 
         })

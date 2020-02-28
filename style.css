@@ -32,10 +32,7 @@ button{
     font-family: fantasy;
     font-weight: 100;
 }
- /* select{
-    width: 345px;
-    margin-bottom: 10px;
-} */
+
 select {
     margin-bottom: 5px;
     border: 1px solid #E5E5E5;
@@ -47,6 +44,12 @@ select {
 }
 #selectNumber, #selectModelo, #selectAno{
     font-family: 'IBM Plex Mono',fantasy ;
+}
+table{
+    font-family: 'Spartan', serif;
+    font-size: 14px;
+    font-weight: 300;
+    display: none;
 }
 
 #cars,#cars-api{
